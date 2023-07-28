@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pacotes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header class="topo2">
+        <section>
+            <div class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a href="" class="navbar-brand" >Recode Viagens</a>
+                  <button type="button" class="navbar-toggler mb-2" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <nav id="menu" class="collapse navbar-collapse justify-content-end">
+                        <ul class="nav navbar-nav ">
+                            <li class="nav-item2">
+                                    <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item2">
+                                    <a class="nav-link" href="#pacotes">Pacotes</a>
+                            </li>
+                            <li class="nav-item2">
+                                <a class="nav-link" href="#promocoes">Promoções</a>
+                            </li>
+                            <li class="nav-item2">
+                                    <a class="nav-link" href="index.html">Servicos</a>
+                            </li>
+                            <li class="nav-item2">
+                                    <a class="nav-link" href="#contato">Contatos</a>
+                            </li>
+                        </ul>
+                  </nav>
+                </div>
+            </div>
+       </section>
+       
+       <section class="container">
+        <div class="orcamento-area limite-largura">
+            <div class="orcamento-cabecalho">
+                <img class="orcamento-logo" src="img.pag2/aviao.png" title="Ícone do avião" alt="Ícone do aviao">
+                <h1 class="orcamento-descricao">Solicite um orçamento</h1>
+            </div>
+            <div class="orcamento-area-formulario">
+                <h2 class="orcamento-subtitulo-formulario">Informe seus dados</h2>
+                <form method="post" class="formulario" action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/">
+                    <label for="nome">Nome</label>
+                    <input id="nome" type="text" name="nome" placeholder="Nome completo" required>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email" placeholder="Email para contato" required>
+                    <label for="celular">Celular</label>
+                    <input id="celular" type="tel"  name="celular" placeholder="(xx) xxxxx-xxxx" required>
+                    <div class="formulario-campo-duplo">
+                        <div>
+                            <label for="ida">Data da ida</label>
+                            <input id="ida" type="date" name="partida">
+                        </div>
+                        <div>
+                            <label for="volta">Data da volta</label>
+                            <input id="volta" type="date" name="chegada">
+                        </div>
+                    </div>
+                    <div class="formulario-campo-duplo">
+                        <div>
+                            <label for="origem">Origem</label>
+                            <select id="origem" name="origem">
+                                <option selected>Partindo de</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="GO">Goias</option>
+                                <option value="MA">Maranhão</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="destino">Destino</label>
+                            <select id="destino" name="destino">
+                                <option selected>Indo para</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="GO">Goias</option>
+                                <option value="MA">Maranhão</option>
+                            </select>
+                        </div>
+                    </div>
+                    <label>Quarto com cama infantil?</label>
+                    <div class="radio">
+                        <div>
+                            <input id="infantil-sim" type="radio" name="infantil" value="s">
+                            <label for="infantil-sim">Sim</label>
+                        </div>
+                        <div>
+                            <input id="infantil-nao" type="radio" name="infantil" value="n">
+                            <label for="infantil-nao">Não</label>
+                        </div>
+                    </div>
+                    <label>Preferências da hospedagem</label>
+                    <div class="radio">
+                        <div>
+                            <input id="piscina" type="checkbox" name="preferencias[]" value="piscina">
+                            <label for="piscina">Piscina</label>
+                        </div>
+                        <div>
+                            <input id="wifi" type="checkbox" name="preferencias[]" value="wifi">
+                            <label for="wifi">Wi-Fi</label>
+                        </div>
+                        <div>
+                            <input id="garagem" type="checkbox" name="preferencias[]" value="garagem">
+                            <label for="garagem">Garagem</label>
+                        </div>
+                        <div>
+                            <input id="suite" type="checkbox" name="preferencias[]" value="suite">
+                            <label for="suite">Suite</label>
+                        </div>
+                    </div>
+                    <button type="submit">Solicitar orçamento</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    </header>
+    <main>
+        <section data-bs-spy="scroll" data-bs-target="#header">
+            <div class="container " id="promocoes">
+                  <section class="row la">
+                       <h2 class="text-right">Ofertas</h2>
+                       <p>Com ate <b>50%</b> de desconto</p>
+                       <div class="row">
+                           <figure class=" col-lg-6 col-md-6" >
+                               <div class="card">
+                                   <img class="rio" src="imagens/cidades/rio.jpg" class="card-img" height="100%">
+                                   <h3 class=" city-title">Rio de Janeiro</h3>
+                               </div>
+                           </figure>
+                           <figure  class=" col-lg-3 col-md-6 card-popular">
+                               <div  class="card card-popular">
+                                   <img src="imagens/cidades/manaus.jpg" class="card-img" >  
+                                   <h3 class=" city-title">Manaus</h3>
+                               </div>
+                               <div  class="card">
+                                   <img src="imagens/cidades/saopaulo.jpg" class="card-img"> 
+                                   <h3 class=" city-title">São Paulo</h3>
+                                   
+                               </div>
+                            </figure>
+                            <figure  class="col-lg-3 col-md-6 card-popular foot">
+                               <div  class="card card-popular ">
+                                   <img src="imagens/cidades/niteroi.jpg" class="card-img">
+                                   <h3  class=" city-title">Rio de Janeiro</h3>
+                               </div>
+                               <div  class="card ">
+                                   <img src="imagens/cidades/maranhao.jpg" class="card-img">
+                                   <h3  class=" city-title">Maranhão</h3>
+                               </div>
+                           </figure>
+                       </div>
+                  </section>
+            </div>
+        </section>
+        <section class="container" id="pacotes">
+            <section id="pacotes" class="pacotes">
+                <h1 class="pacotes-title">Conheça nossos pacotes</h1>
+                
+                <div class="pacotes-cards">
+
+                  <div class="card">
+                        <div class="card-tag card-tag-top">
+                            <p>Promoção</p>
+                            </div>
+                            <div class="card-tag card-tag-bottom">
+                            <p>R$ 800,00</p>
+                            </div>
+                            <img class="card-image" src="img.pag2/gramado.jpg" alt="Gramado">
+                            <div class="card-content">
+                            <h1>Pacote 5 noites hotel em Gramado</h1>
+                            <ul>
+                                <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+                                <li><i data-feather="wifi"></i>Wi-Fi</li>
+                                <li><i data-feather="map"></i>Passeio</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                          <div class="card-tag card-tag-top">
+                                <p>Promoção</p>
+                                </div>
+                                <div class="card-tag card-tag-bottom">
+                                <p>R$ 1800,00</p>
+                                </div>
+                                <img class="card-image" src="img.pag2/ilhas.jpg" alt="Ilhas Maldivas">
+                                <div class="card-content">
+                                <h1>Pacote 5 noites em Ilha Maldivas</h1>
+                                <ul>
+                                    <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+                                    <li><i data-feather="wifi"></i>Wi-Fi</li>
+                                    <li><i data-feather="map"></i>Passeio</li>
+                                </ul>
+                          </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-tag card-tag-top">
+                            <p>Promoção</p>
+                            </div>
+                            <div class="card-tag card-tag-bottom">
+                            <p>R$ 1500,00</p>
+                            </div>
+                            <img class="card-image" src="img.pag2/paris.jpg" alt="Paris">
+                            <div class="card-content">
+                            <h1>Pacote 5 noites hotel premium</h1>
+                            <ul>
+                                <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+                                <li><i data-feather="wifi"></i>Wi-Fi</li>
+                                <li><i data-feather="map"></i>Passeio</li>
+                            </ul>
+                        </div>
+                  </div>
+            
+                  <div class="card">
+                        <div class="card-tag card-tag-top">
+                            <p>Promoção</p>
+                            </div>
+                            <div class="card-tag card-tag-bottom">
+                            <p>R$ 1200,00</p>
+                            </div>
+                            <img class="card-image" src="img.pag2/miami.webp" alt="Miami">
+                            <div class="card-content">
+                            <h1>Pacote 10 dias em Miami Beach</h1>
+                            <ul>
+                                <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+                                <li><i data-feather="wifi"></i>Wi-Fi</li>
+                                <li><i data-feather="map"></i>Passeio incluso</li>
+                            </ul>
+                        </div>
+                  </div>
+            
+                  <div class="card">
+                        <div class="card-tag card-tag-top">
+                            <p>Promoção</p>
+                            </div>
+                            <div class="card-tag card-tag-bottom">
+                            <p>R$ 1400,00</p>
+                            </div>
+                            <img class="card-image" src="img.pag2/berlim_60mais.jpg" alt="Berlim">
+                            <div class="card-content">
+                            <h1>Pacote 4 noites em Berlim</h1>
+                            <ul>
+                                <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+                                <li><i data-feather="wifi"></i>Wi-Fi</li>
+                                <li><i data-feather="map"></i>Passeio</li>
+                            </ul>
+                        </div>
+                  </div>
+            
+                  <div class="card">
+                        <div class="card-tag card-tag-top">
+                            <p>Promoção</p>
+                            </div>
+                            <div class="card-tag card-tag-bottom">
+                            <p>R$ 500,00</p>
+                            </div>
+                            <img class="card-image" src="img.pag2/Fortaleza.jpg" alt="Fortaleza">
+                            <div class="card-content">
+                            <h1>7 dias em Fortaleza </h1>
+                            <ul>
+                                <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+                                <li><i data-feather="wifi"></i>Wi-Fi</li>
+                                <li><i data-feather="map"></i>Passeio</li>
+                            </ul>
+                        </div>
+                  </div>
+            
+                  <div class="card">
+                        <div class="card-tag card-tag-top">
+                            <p>Promoção</p>
+                            </div>
+                            <div class="card-tag card-tag-bottom">
+                            <p>R$ 200,00</p>
+                            </div>
+                            <img class="card-image" src="img.pag2/jericoacora.jpg" alt="jericoacoara">
+                            <div class="card-content">
+                            <h1>Pacote 14 dias em Jericoacoara</h1>
+                            <ul>
+                                <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+                                <li><i data-feather="wifi"></i>Wi-Fi</li>
+                                <li><i data-feather="map"></i>Passeio de buggy</li>
+                            </ul>
+                        </div>
+                  </div>
+            
+                  <div class="card">
+                        <div class="card-tag card-tag-top">
+                            <p>Promoção</p>
+                            </div>
+                            <div class="card-tag card-tag-bottom">
+                            <p>R$ 1200,00</p>
+                            </div>
+                            <img class="card-image" src="img.pag2/canada.jpg" alt="Canada">
+                            <div class="card-content">
+                            <h1>Pacote 14 dias em Moraine lake, Canada</h1>
+                            <ul>
+                                <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+                                <li><i data-feather="wifi"></i>Wi-Fi</li>
+                                <li><i data-feather="map"></i>Passeio</li>
+                            </ul>
+                        </div>
+                  </div>
+                </div>
+              </section>
+        </section>
+   </main>
+
+   <footer id="contato">
+    <div class="container" >
+        <div class="boxes-footer">
+            <div class="contato">
+                <h3> Contato</h3>
+                <div>
+                    <div class="itens-contato">
+                        <i data-feather="map"></i>
+                        <span> </i>São Luis- MA</span>
+                    </div>
+                    <div class="itens-contato">
+                        <i data-feather="phone"></i>
+                        <span></i>Telefone:(98)91688230</span>
+                    </div>
+                    <div class="itens-contato">
+                        <i data-feather="mail"></i>
+                        <span>Email: wesleycampos093@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contato2">
+                <h3>Redes Socias</h3>
+                <div>
+                    <div class="itens-contato">
+                        <i data-feather="facebook"></i>
+                        <span>/recodeviagens</span>
+                    </div>
+                    <div class="itens-contato">
+                        <i data-feather="instagram"></i>
+                        <span>@agenciadeviagensrecode</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" text-center foot"> ©Desenvolvido por Wesley Campos</div>
+</footer>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/7ab7f79c6e.js" crossorigin="anonymous"></script>
+
+   <script>
+    feather.replace();
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+            });
+        });
+    });
+</script>
+</body>
+</html>

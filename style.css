@@ -1,0 +1,697 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
+
+    main{
+    background-color:  #EAEAEA ;
+    } 
+    .corpo {
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    i {
+        color: #da1a29;
+    }
+    
+    header {
+    background-image: url("imagens/topo/canada2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 200px);
+    position: relative;
+    box-sizing: border-box;  
+    }
+
+    .container {
+    padding-top: 10px;
+    }
+    .navbar {
+    margin: 0 30px;  
+    }
+    
+    .navbar-nav .nav-link.active {
+        color: #fff;
+        
+    }
+    
+    .navbar .navbar-brand {
+        color: #fff;
+        cursor: pointer;
+        font-size: 1.5em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        transition: text-shadow .6s;
+    
+    }
+
+    .navbar .navbar-brand:hover {
+        text-shadow: 0px 0px 10px #fff; 
+    }
+    
+    .nav-link {
+        text-align: end;
+    }
+
+    .nav-item a {
+        margin: 0 15px;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 1.5em;
+        color:darkgreen;  
+    }
+
+    .nav-item:hover {
+        color: #f56c11;
+        transition: .4s;
+    }
+
+    #home {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 40%;
+        height: 400px;
+    }
+
+    .card-body .alt {
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        max-width: 500px;
+        margin: 0 auto;
+        animation: ease text-move 2s forwards;
+        font-family: 'Montserrat', sans-serif;
+        flex-shrink: 1;
+    }
+
+    .card-body p {
+        font-size: 1.2em;
+    }
+
+    .card-body h1 {
+        margin-bottom: 10px;
+        font-size: 4rem;
+    }
+
+    @keyframes text-move{
+        from {transform:  translateY(0px);
+            opacity: 0;}
+        to {transform:   translateY(-20px);
+            opacity: 1;}
+    }
+
+
+    form {
+        align-items: start;
+
+    }
+
+    .form-info input {
+        border: 2px solid #da1a29;
+        border-radius: 15px;
+    }
+    
+    .form-info input:focus {
+        box-shadow: none;
+        border-color: #da1a29;
+    }
+    
+    .btn-reservation {
+        background-color: #da1a29;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        margin-top: 15%;
+        padding: 0.4rem;
+        color: #fff;
+        text-decoration: none;
+        border: 1px solid transparent;
+    }
+    
+    .btn-reservation:hover {
+        color: #da1a29;
+        font-weight: bold;
+        background-color: transparent;
+        border-color: #da1a29;
+    }
+
+
+    .section-title {
+        position: relative;
+        margin: 20px 0;
+    }
+    
+    .section-title::after {
+        content: '';
+        border: 2px solid #da1a29;
+        width: 10%;
+        position: absolute;
+        top: 35px;
+        left: 45%;
+    }
+
+    .text-right {
+        content: '';
+        width: 10%;
+        position:relative;
+        top: 35px;
+        margin-bottom: 40px ;
+    }
+
+    .rio {
+    height: 534px;
+    }
+
+    img {
+        box-shadow: rgba(37, 37, 39, 0.25) 0.5rem 0.5rem 2rem 0px; 
+    }
+
+    .card-popular img {
+        height: 250px;
+    }
+    
+    .card-popular {
+        margin-bottom: 30px;
+    }
+    
+    .city-title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.452);
+        width: 100%;
+        padding: 5px;
+    }
+
+    .fa-plane {
+        color: #da1a29;
+        font-size: 2rem;
+    }
+
+    .info-boxes-natureza {
+        background-color: #fff;
+        padding: 5px 10px;
+        margin-bottom: 15px;
+    }
+
+    .pgm {
+        margin-bottom: 0;
+        transition: all 1s;
+
+    }
+
+    .pgm:hover {
+        transform: scale(1.07);
+    }
+
+    
+    #servicos .card {
+        height: 250px;
+    }
+    
+    #servicos .card i {
+        font-size: 2rem;
+        margin-top: 5px;
+    }
+    
+    #servicos .card h3 {
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+
+    #servicos .card p {
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+    
+   
+    
+    .logo h3 {
+        font-size: 1.25rem;
+    }
+    
+    .social-media i {
+        margin-right: .5rem;
+        font-size: 1.5rem;
+    }
+
+    .btn {
+    width: 200px;
+    }
+    
+    footer {
+        margin: 10px 0 0 0;
+    }
+
+    footer {
+        background-color: #5D15D1;
+    }
+
+    .boxes-footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        box-sizing: border-box;
+        color: white;
+        
+
+    }
+
+    footer span {
+        font-size: 14px;
+    }
+
+    footer h3 {
+        font-size: 24px;
+        margin-bottom: 18px;
+        margin-top: 12px;
+    }
+
+    .itens-contato {
+        margin-bottom: 3px;
+    }
+
+    .foot {
+        width: 100%;
+        font-size: 0.8em;
+        margin: 0;
+        padding: 0;
+        background-color: #EAEAEA;
+    }
+
+    
+
+
+    /* PAGINA PACOTES */
+
+    .topo2 {
+        background-image: url("https://www.cvc.com.br/imageproc/image/upload/f_auto,q_auto/v1/CVC/home/bg_motor_cvc_desktop.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: calc(100vh);
+        position: relative;
+        box-sizing: border-box;
+    }
+
+    .nav-item2 a {
+        margin: 0 15px;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 1.5em;
+        color:#fff;  
+    }
+
+    .orcamento-area {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        padding: 50px 0;
+        flex-shrink: 1;
+    }
+
+    .orcamento-cabecalho {
+        width: 100%;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #5d15d1;
+    }
+
+    .orcamento-logo {
+        width: 20px;
+        height: 20px;
+        transform: rotate(-45deg);
+    }
+
+    .orcamento-descricao {
+        font-size: 14px;
+        color: #fff;
+        margin: 0 0 0 5px;
+    }
+
+
+    .orcamento-area-formulario {
+        width: 100%;
+        background: #fff;
+        padding: 30px 25px 20px 25px;
+        box-sizing: border-box;
+    
+    }
+
+    .orcamento-subtitulo-formulario {
+        font-size: 22px;
+        margin: 0 0 24px 0px;
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .formulario label {
+        font-size: 16px;
+    }
+
+    .formulario input, .formulario select {
+        width: 100%;
+        height: 32px;
+        margin: 10px 0;
+    }
+
+    .formulario input {
+        padding: 0 5px;
+        box-sizing: border-box;
+    }
+
+    .formulario select {
+        padding: 0 3px;
+    }
+
+    .formulario-campo-duplo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .formulario-campo-duplo div {
+        width: calc(50% - 10px);
+    }
+
+    .radio {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .radio div {
+        display: flex;
+        align-items: center;
+        width: 120px !important;
+    }
+
+    .radio input {
+        width: 15px;
+    }
+
+    .radio label {
+        margin: 0 0 0 8px;
+    }
+
+    .formulario button {
+        width: 160px;
+        height: 32px;
+        border: none;
+        background: #5d15d1;
+        font-size: 16px;
+        color: #fff;
+        margin: 12px 0 0 0;
+        cursor: pointer;
+    }
+
+        
+
+    #promocoes .card img{
+        transition: all 1s;
+
+    }
+
+    #promocoes .card img:hover {
+        transform: scale(1.04);
+    }
+
+    .pacotes {
+        background-color: rgba(235, 231, 231, 0.363);
+        padding: 25px;
+    }
+    
+    .pacotes .pacotes-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    
+    .pacotes .pacotes-title { 
+        width: 100%;
+        margin: auto;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    
+    .pacotes .card {
+        margin: 25px;
+        width: 250px;
+        height: 350px;
+        background: #fff;
+        border-radius: 24px 0px;
+        box-shadow: 0px 0px 4px -1px #222;
+        position: relative;
+        transition: all 1s;
+    }
+    
+    .pacotes .card:hover {
+        transform: scale(1.1);
+    }
+    
+    
+    .pacotes .card-image {
+        height: 200px;
+        border-radius: 24px 0 0 0;
+        object-fit: cover;
+        flex-shrink: 1;
+    }
+    
+    .pacotes .card-content {
+        padding: 0 15px;
+    }
+    
+    .pacotes .card-content h1 {
+        font-size: 0.9rem;
+    }
+    
+    .pacotes .card-content ul  {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding-left: 0;
+    }
+    
+    .pacotes .card-content ul li {
+        font-size: 0.6rem;
+        display: flex;
+        align-items: center;
+        margin: 3px 0px;
+        color: gray;
+        font-weight: bold;
+    }
+    
+    .pacotes .card-content li svg {
+        width: 16px;
+        height: 16px;
+        margin-right: 10px;
+    }
+    
+    .pacotes .card .card-tag-top{
+        position: absolute;
+        background: #f56c11;
+        right: 0;
+        top: 15px;
+        border-radius: 8px 0 0 8px;
+        padding: 5px 10px;
+        box-shadow: 1px 2px 5px -2px #222;
+    }
+    
+    
+    .pacotes .card .card-tag-bottom {
+        position: absolute;
+        left: 0;
+        top: 160px;
+        background: #1d61dd;
+        border-radius: 0 8px 8px 0;
+        padding: 5px 10px;
+        box-shadow: 1px 1px 4px 1px #222;
+    }
+    
+    .pacotes .card .card-tag p {
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: #ffff;
+    }
+   
+
+
+
+@media (max-width: 340px) {
+    .navbar-toggler-icon {
+        font-size: .625rem;
+    }
+  }
+
+ @media (max-width: 560px) {
+    .rio {
+        height: 250px;  
+    }
+
+
+  }
+
+
+@media (max-width: 770px) {
+    
+.navbar-toggler-icon {
+      font-size: 1rem;
+}
+ 
+  
+.navbar-brand {
+    font-size: 1rem;
+}
+
+
+  
+.btn-read-more {
+      width: 150px;
+      height: 30px;
+}
+  
+.card-footer {
+    margin-bottom: 12px;
+    padding: 0 12px;
+}
+  
+.footer-title {
+      margin-bottom: 12px;
+  }
+}
+
+
+@media (max-width:1000px) {
+    #home p {
+        font-size: 10px;
+        position: absolute;
+        width: 300px;
+        right: 0;
+        left: 0;
+        bottom: 60%;
+    }
+
+    #home h1 {
+        font-size: 2rem ;
+        position: absolute;
+        bottom: 70%;
+        right: 0;
+        left: 0;
+    }
+
+    .navbar .navbar-toggler {
+        background-color: darkgrey;
+    }
+
+    .navbar .navbar-brand {
+        font-size: 1em ;
+    }
+
+    header {
+        height: calc(100vh);
+    }
+    
+    #home .container {
+       width: 220px ;
+       position: absolute;
+       bottom: 50%;
+      right: 0;
+      left: 0;    
+    }
+
+    #home .btn{
+        width: 120px;
+    }
+    .nav-item {
+        font-size: 0.50em;
+       
+    }
+
+    #servicos .card {
+        width: 300px;
+       margin: 0 auto;
+    }
+
+    .nav-item a {
+        color: bisque;
+    }
+
+    #contato .container .boxes-footer{
+        display: block;
+    }
+
+    .contato2 {
+        margin-top: 30px;
+    }
+    .topo2 {
+        height:1370px  ;
+        position: relative;
+    }
+    .nav-item2 a {
+        color: bisque;
+    }
+
+
+    .nav-item2 {
+        font-size: 0.50em; 
+    }
+
+  
+    .formulario-campo-duplo, .radio {
+            flex-direction: column;
+        }
+    
+    .formulario-campo-duplo div, .radio div {
+            width: 100%;
+        }
+    
+    .btn-reservation {
+      width: 150px;
+      margin: 15% auto 0 auto ;  
+    }
+  
+    .la .card-popular {
+        flex-grow: 1;
+    }
+
+    .rio {
+        border-radius: 1%;
+    }
+
+    #promocoes .la {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width:1001px) {
+    .topo2 {
+        height: calc(100vh - -150px);
+    }
+    .topo1{
+        height: calc(100vh- -10px); 
+    }
+
+    .navbar-expand-lg .navbar-nav {
+       
+        font-size: 0.8em;
+    }
+
+    .orcamento-area {
+        position: absolute;
+        bottom: 13%;
+        right: 0;
+        left: 0;
+        width: 60%;
+    }
+}
