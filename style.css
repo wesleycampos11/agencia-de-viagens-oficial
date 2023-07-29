@@ -305,7 +305,7 @@
     }
 
     .orcamento-area {
-        width: 80%;
+        width: 90%;
         height: auto;
         margin: 0 auto;
         padding: 50px 0;
@@ -660,6 +660,7 @@
     .formulario-campo-duplo div, .radio div {
             width: 100%;
         }
+    
     
     .btn-reservation {
       width: 150px;
