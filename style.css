@@ -291,7 +291,7 @@
         background-image: url("https://www.cvc.com.br/imageproc/image/upload/f_auto,q_auto/v1/CVC/home/bg_motor_cvc_desktop.png");
         background-repeat: no-repeat;
         background-size: cover;
-        height: calc(100vh);
+        height: calc(100vh - -150px);
         position: relative;
         box-sizing: border-box;
     }
@@ -685,9 +685,7 @@
 }
 
 @media (min-width:1001px) {
-    .topo2 {
-        height: calc(100vh - -150px);
-    }
+    
     .topo1{
         height: calc(100vh- -10px); 
     }
@@ -697,11 +695,5 @@
         font-size: 0.8em;
     }
 
-    .orcamento-area {
-        position: absolute;
-        bottom: 13%;
-        right: 0;
-        left: 0;
-        width: 60%;
-    }
+    
 }
