@@ -305,7 +305,7 @@
     }
 
     .orcamento-area {
-        width: 90%;
+        width: 80%;
         height: auto;
         margin: 0 auto;
         padding: 50px 0;
@@ -537,6 +537,10 @@
  @media (max-width: 560px) {
     .rio {
         height: 250px;  
+    }
+
+    .orcamento-area {
+        width: 90%;
     }
 
 
