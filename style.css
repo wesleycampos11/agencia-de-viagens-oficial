@@ -544,12 +544,7 @@
 
 
 @media (max-width: 770px) {
-
-.topo1 {
-        height: 600px; 
-}
-    
-    
+  
 .navbar-toggler-icon {
       font-size: 1rem;
 }
@@ -578,6 +573,11 @@
 
 
 @media (max-width:1000px) {
+    
+    .topo1 {
+        height: 600px; 
+    }
+    
     #home p {
         font-size: 10px;
         position: absolute;
