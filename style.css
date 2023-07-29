@@ -544,6 +544,11 @@
 
 
 @media (max-width: 770px) {
+
+.topo1 {
+        height: 600px; 
+}
+    
     
 .navbar-toggler-icon {
       font-size: 1rem;
