@@ -539,16 +539,16 @@
         height: 250px;  
     }
 
-    .orcamento-area {
-        width: 90%;
-    }
-
-
   }
 
 
 @media (max-width: 770px) {
   
+.orcamento-area {
+    width: 90%;
+}
+
+
 .navbar-toggler-icon {
       font-size: 1rem;
 }
