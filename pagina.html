@@ -32,7 +32,7 @@
                                     <a class="nav-link" href="index.html">Servicos</a>
                             </li>
                             <li class="nav-item2">
-                                    <a class="nav-link" href="#contato">Contatos</a>
+                                    <a class="nav-link" href="contatos.html">Contatos</a>
                             </li>
                         </ul>
                   </nav>
@@ -41,68 +41,67 @@
        </section>
        
        <section class="container">
-        <div class="orcamento-area limite-largura">
-            <div class="orcamento-cabecalho">
-                <img class="orcamento-logo" src="img.pag2/aviao.png" title="Ícone do avião" alt="Ícone do aviao">
-                <h1 class="orcamento-descricao">Solicite um orçamento</h1>
-            </div>
-            <div class="orcamento-area-formulario">
-                <h2 class="orcamento-subtitulo-formulario">Informe seus dados</h2>
-                <form method="post" class="formulario" action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/">
-                    <label for="nome">Nome</label>
-                    <input id="nome" type="text" name="nome" placeholder="Nome completo" required>
-                    <label for="email">Email</label>
-                    <input id="email" type="email" name="email" placeholder="Email para contato" required>
-                    <label for="celular">Celular</label>
-                    <input id="celular" type="tel"  name="celular" placeholder="(xx) xxxxx-xxxx" required>
-                    <div class="formulario-campo-duplo">
-                        <div>
-                            <label for="ida">Data da ida</label>
-                            <input id="ida" type="date" name="partida">
+            <div class="orcamento-area limite-largura bg-opacity-25">
+                <div class="orcamento-cabecalho">
+                    <img class="orcamento-logo" src="img.pag2/aviao.png" title="Ícone do avião" alt="Ícone do aviao">
+                    <h1 class="orcamento-descricao">Solicite um orçamento</h1>
+                </div>
+                <div class="orcamento-area-formulario">
+                    <h2 class="orcamento-subtitulo-formulario">Informe seus dados</h2>
+                    <form method="post" class="formulario" action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/">
+                        <label for="nome">Nome</label>
+                        <input id="nome" type="text" name="nome" placeholder="Nome completo" required>
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Email para contato" required>
+                        <label for="celular">Celular</label>
+                        <input id="celular" type="tel"  name="celular" placeholder="(xx) xxxxx-xxxx" required>
+                        <div class="formulario-campo-duplo">
+                            <div>
+                                <label for="ida">Data da ida</label>
+                                <input id="ida" type="date" name="partida">
+                            </div>
+                            <div>
+                                <label for="volta">Data da volta</label>
+                                <input id="volta" type="date" name="chegada">
+                            </div>
                         </div>
-                        <div>
-                            <label for="volta">Data da volta</label>
-                            <input id="volta" type="date" name="chegada">
+                        <div class="formulario-campo-duplo">
+                            <div>
+                                <label for="origem">Origem</label>
+                                <select id="origem" name="origem">
+                                    <option selected>Partindo de</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="GO">Goias</option>
+                                    <option value="MA">Maranhão</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="destino">Destino</label>
+                                <select id="destino" name="destino">
+                                    <option selected>Indo para</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="GO">Goias</option>
+                                    <option value="MA">Maranhão</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
-                    <div class="formulario-campo-duplo">
-                        <div>
-                            <label for="origem">Origem</label>
-                            <select id="origem" name="origem">
-                                <option selected>Partindo de</option>
-                                <option value="AM">Amazonas</option>
-                                <option value="RJ">Rio de Janeiro</option>
-                                <option value="SP">São Paulo</option>
-                                <option value="GO">Goias</option>
-                                <option value="MA">Maranhão</option>
-                            </select>
+                        <label>Quarto com cama infantil?</label>
+                        <div class="radio">
+                            <div>
+                                <input id="infantil-sim" type="radio" name="infantil" value="s">
+                                <label for="infantil-sim">Sim</label>
+                            </div>
+                            <div>
+                                <input id="infantil-nao" type="radio" name="infantil" value="n">
+                                <label for="infantil-nao">Não</label>
+                            </div>
                         </div>
-                        <div>
-                            <label for="destino">Destino</label>
-                            <select id="destino" name="destino">
-                                <option selected>Indo para</option>
-                                <option value="AM">Amazonas</option>
-                                <option value="RJ">Rio de Janeiro</option>
-                                <option value="SP">São Paulo</option>
-                                <option value="GO">Goias</option>
-                                <option value="MA">Maranhão</option>
-                            </select>
-                        </div>
-                    </div>
-                    <label>Quarto com cama infantil?</label>
-                    <div class="radio">
-                        <div>
-                            <input id="infantil-sim" type="radio" name="infantil" value="s">
-                            <label for="infantil-sim">Sim</label>
-                        </div>
-                        <div>
-                            <input id="infantil-nao" type="radio" name="infantil" value="n">
-                            <label for="infantil-nao">Não</label>
-                        </div>
-                    </div>
-                    <label>Preferências da hospedagem</label>
-                    <div class="radio">
-                        
+                        <label>Preferências da hospedagem</label>
+                        <div class="radio">
                             <div>
                                 <input id="piscina" type="checkbox" name="preferencias[]" value="piscina">
                                 <label for="piscina">Piscina</label>
@@ -111,8 +110,8 @@
                                 <input id="wifi" type="checkbox" name="preferencias[]" value="wifi">
                                 <label for="wifi">Wi-Fi</label>
                             </div>
-                
-                        
+                    
+                            
                             <div>
                                 <input id="garagem" type="checkbox" name="preferencias[]" value="garagem">
                                 <label for="garagem">Garagem</label>
@@ -120,14 +119,13 @@
                             <div>
                                 <input id="suite" type="checkbox" name="preferencias[]" value="suite">
                                 <label for="suite">Suite</label>
-                            </div>
-                        
-                    </div>
-                    <button type="submit">Solicitar orçamento</button>
-                </form>
+                            </div>  
+                        </div>
+                        <button type="submit">Solicitar orçamento</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </section>
+       </section>
     </header>
     <main>
         <section data-bs-spy="scroll" data-bs-target="#header">

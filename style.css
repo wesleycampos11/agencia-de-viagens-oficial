@@ -203,7 +203,7 @@
     }
 
     .pgm:hover {
-        transform: scale(1.07);
+        transform: scale(1.05);
     }
 
     
@@ -286,6 +286,7 @@
 
 
     /* PAGINA PACOTES */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 
     .topo2 {
         background-image: url("https://www.cvc.com.br/imageproc/image/upload/f_auto,q_auto/v1/CVC/home/bg_motor_cvc_desktop.png");
@@ -333,10 +334,9 @@
         margin: 0 0 0 5px;
     }
 
-
     .orcamento-area-formulario {
         width: 100%;
-        background: #fff;
+        background-color: #fff ;
         padding: 30px 25px 20px 25px;
         box-sizing: border-box;
     
@@ -697,3 +697,4 @@
 
     
 }
+
