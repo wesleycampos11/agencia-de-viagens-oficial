@@ -65,6 +65,13 @@
         transition: .4s;
     }
 
+    .nav-link.button-login{
+        border: 1px solid blue;
+        color: #fff;
+        background-color: #1d61dd;
+        border-radius: 12px;
+    }
+
     #home {
         position: absolute;
         right: 0;
