@@ -66,9 +66,9 @@
     }
 
     .nav-link.button-login{
-        border: 1px solid blue;
+        border: 1px solid coral;
         color: #fff;
-        background-color: #1d61dd;
+        background-color: coral;
         border-radius: 12px;
     }
 
