@@ -705,3 +705,37 @@
     
 }
 
+@media (max-width: 992px){
+  .nav-item2 .nav-link{
+    width: 120px;
+    border-radius: 10px;
+    background-color: #dc3545;
+    margin-top: 1px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .topo2{
+    height: 1410px;
+  }
+
+  .nav-item .nav-link{
+    width: 120px;
+    border-radius: 10px;
+    background-color: #dc3545;
+    margin: 1px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .nav-item{
+    display: flex;
+    justify-content: right;
+  }
+
+  .nav-item2{
+    display: flex;
+    justify-content: right;
+  }
+}
+
